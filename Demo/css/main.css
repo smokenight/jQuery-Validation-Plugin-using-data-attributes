@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 30px;
+  background: #eee;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body, textarea {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3.instrucciones {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+h3.instrucciones strong {
+  font-weight: bold;
+}
+
+h3.instrucciones span {
+  font-style: italic;
+}
+
+form {
+  font-size: 1.4rem;
+  color: #222;
+}
+
+form .field-group {
+  display: flex;
+  margin: 0 0 12px 0;
+}
+
+form .field-group .label {
+  flex: 1;
+  text-align: right;
+  margin: 0 8px 0 0;
+  padding: 2px 0;
+  line-height: 32px;
+}
+
+form .field-group .field {
+  flex: 2;
+}
+
+form .field-group:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+form .field-group:last-child .field {
+  max-width: 75%;
+}
+
+input, select, textarea {
+  padding: .6rem 1rem;
+  font-size: 1.6rem;
+  border: solid 1px #eee;
+  background: #fff;
+  box-sizing: border-box;
+  color: #666;
+}
+
+textarea {
+  width: 100%;
+}
+
+input, select {
+  width: 95%;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+input[type="submit"] {
+  width: auto;
+}
+
+input.error, select.error {
+  border: 1px solid #CC0000;
+  color: #333;
+}
+
+label.error {
+  display: block;
+  margin-top: 5px;
+  font-size: 1.2rem;
+  color: red;
+  clear: both;
+}
+
+a.view-code {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url('../img/view-code.png') no-repeat;
+  background-size: contain;
+  flex: 1;
+  margin-top: 4px;
+}
+
+pre {
+  display: none;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  color: #CCC;
+  margin: 2px 0 10px 2px;
+  overflow: auto;
+  width: auto;
+  padding: 5px;
+  background-color: #fff;
+  width: 650px!ie7;
+  padding-bottom: 20px!ie7;
+  max-height: 600px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  clear: both;
+}
+
+@media (max-width: 720px) {
+  form .field-group .label {
+    text-align: left;
+    margin: 0;
+  }
+
+  input, select {
+    width: 60%;
+  }
+  
+  a.view-code {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  input,
+  select {
+    width: 100%;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"],
+  input[type="submit"] {
+    width: auto;
+  }
+
+  form .field-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 6px 0;
+  }
+
+  form .field-group .label {
+    padding: 0 0 5px 0;
+    margin: 10px 0 0 0;
+  }
+}
