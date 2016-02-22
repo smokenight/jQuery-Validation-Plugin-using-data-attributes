@@ -153,5 +153,3 @@ Ejemplo: `<input type="text" id="nombre" name="nombre" data-rule-required="true"
 <script>
 $(".js-form-validate").validate();
 </script>
-```
-# jQuery-Validation-Plugin-using-data-attributes
