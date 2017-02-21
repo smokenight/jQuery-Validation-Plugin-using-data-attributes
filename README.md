@@ -1,4 +1,4 @@
-# Validación de Formularios via jQuery Validate:
+# Validación de Formularios vía jQuery Validate:
 
 ## Requerimiento:
 
